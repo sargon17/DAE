@@ -1,0 +1,411 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #B45F4D;
+}
+
+body{
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+    margin: auto;
+    /* display: flex; */
+    padding: 0px;
+    width: 100%;
+}
+
+li{
+    margin: auto;
+}
+H1,H2,H3,H4,H5,H6{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #663429;
+    transition: .1s;
+}
+
+.navBanner{
+    display: flex;
+    height: 71px;
+    padding: 0 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navBanner img{
+    margin-right: auto;
+}
+.navBox li{
+    display: inline;
+    padding: 0 10px;
+}
+
+
+.accountBox li{
+    display: inline;
+    padding: 0 10px;
+}
+
+.accountBox img{
+    height: 17px;
+}
+
+
+.banner{
+    background-color: #B45F4D;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_link{
+    color: #F1D3B9;
+    text-decoration: none;
+}
+
+.InitialPhotoBanner{
+    width: 100%;
+    height: 435px;
+    background-color: gray;
+    background: url(/IMG/BannerImage.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+}
+
+button{
+    background-color: #B45F4D;
+    border: hidden;
+    color: #FFFFFF;
+    font-size: 17px;
+    padding: 10px 20px;
+    position: relative;
+    max-height: 3em;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #a25343;
+    transition: .1s;
+}
+
+.centreButton{
+    bottom: -332px;
+}
+.greenBack{
+    background-color: #A9AE8D;
+}
+div#greenBox{
+    height: 304px;
+    display: flex;
+    justify-content: center;
+}
+
+.smallerWidthBox{
+    width: 90%;
+}
+
+
+.textColorClearGreen{
+    color: #F6F4EC;
+}
+
+.linkHover:hover{
+    color: #626452;
+    text-decoration: underline;
+}
+
+.h2text{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.h1text{
+    font-weight: 400;
+    font-size: 33px;
+}
+
+.productSector{
+    background-color: #F6F4EC;
+    height: fit-content;
+    width: 100%;
+}
+
+.productSectorTitleBox{
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 0px;
+}
+
+.productList{
+    display: flex;
+    gap: 10%;
+    justify-content: space-evenly;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.productCard{
+    /* width: 380px; */
+    width: fit-content;
+    height: 644px;
+    overflow: hidden;
+}
+
+.productCardHover:hover{
+    box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.25);
+    transition: 0.2s;
+    transform: scale(1.01);
+}
+.productCardHover{
+    transition: .2s;
+}
+
+.productCardText{
+    padding: 5px;
+}
+
+.centralBanner{
+    height:fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+    flex:0 1 100px;
+}
+
+.centralBannerContent{
+    height: 414px;
+    /* margin: auto; */
+    overflow: hidden;
+    width: 80%;
+    background-color: #DF9B7A;
+    background-image: url(/IMG/central-banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.centralBannerContent img{
+    width: auto;
+
+}
+
+.centralBannerTextBox{
+    background-color: #DF9B7A;
+    height: 92px;
+    width: 100%;
+    position: relative;
+    top: -92px;
+}
+
+.imageHover:hover{
+    transform: scale(1.02);
+    transition: .20s;
+}
+
+.imageHover{
+    transition: .20s;
+}
+
+.meet_dae_sector{
+    height: 1069px;
+    background-color: #F1D3B9;
+    position: relative;
+}
+
+.meet_dae_sector > div{
+    background-color: #F8F8F8;
+    max-width: 500px;
+    width: 90%;
+    position: absolute;
+    right: 10vw;
+    top: 25vh;
+    z-index: 2;
+    padding: 4em 2em;
+    box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.25);
+    margin: 10px 30px;
+}
+
+
+.meet_dae_sector div h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.meet_dae_sector > div > p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.7em;
+    font: "Roboto";
+    margin: 30px 30px;
+}
+.meet_dae_sector > div > a{
+    margin-left:30px;
+}
+
+.meet_dae_sector img:first-of-type {
+    position: absolute;
+    left: 20vw;
+    top: 5vh;
+    box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.25);
+    max-width: 623px;
+    width: 80%;
+    height: auto;
+}
+.meet_dae_sector img:last-of-type{
+    position: absolute;
+    left: 10vw;
+    bottom: 5vh;
+    box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.25);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin: 2rem 5vw;
+}
+.grid div{
+    box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.25);
+    height: 130px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.30s;
+    transition-timing-function: ease-in-out;
+}
+.grid div:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+}
+.box1{background: url(/IMG/Grid_img_1.jpg);}
+.box2{background: url(/IMG/Grid_img_2.jpg);}
+.box3{background: url(/IMG/Grid_img_3.jpg);}
+.box4{background: url(/IMG/Grid_img_4.jpg);}
+.box5{background: url(/IMG/Grid_img_5.jpg);}
+.box6{background: url(/IMG/Grid_img_6.jpg);}
+
+footer{
+    background: #F6F4EC;
+    border-top: solid 2px #F1D3B9;
+    padding: 30px;
+}
+
+.foot__wrapper{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot__navigation{
+    display: flex;
+    max-width: 600px;
+    width: 400px;
+    justify-content: space-around;
+}
+.foot__navigation ul li{
+    margin:10px 0;
+}
+
+.subscribe__section {
+    min-width: 550px;
+}
+.subscribe__section div{
+    display: flex;
+    max-width: 550px;
+}
+
+.subscribe__section input{
+    height: 36px;
+    border: #B45F4D 1px solid;
+    width: 100%;
+    background-color: #F6F4EC;
+    border-right: none;
+}
+.subscribe__section button{
+    background: #F6F4EC;
+    height: 40px;
+    border:  #B45F4D 1px solid;
+    border-left: none;
+    color: #B45F4D;
+}
+.subscribe__section p:first-child{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1000px){
+    .foot__wrapper{
+        display: inline;
+    }
+    .subscribe__section{
+       min-width: 0px;
+       max-width: 100%;
+       margin: 40px 0;
+    }
+    .subscribe__section input{
+        /* width: auto; */
+     }
+    .subscribe__section div{
+        display: flex;
+        max-width: 600px;
+        width: 100%;
+    }
+    .foot__navigation{
+        display: flex;
+    }
+    /* .foot__navigation ul{
+        width: 200px;
+    } */
+}
+
+@media screen and (max-width: 800px) {
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .meet_dae_sector{
+        height: 700px;
+        min-height: fit-content;
+        position: relative;
+        background-image: url(/IMG/Big_Girl_back.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .meet_dae_sector > div{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        min-height: fit-content;
+        max-width: 300px;
+        width: 90vw;
+        position: absolute;
+        overflow: hidden;
+        margin: 0 auto;
+        background-color: rgba(248, 248, 248, 0.8) ;
+    }
+    .meet_dae_sector > div > p{
+        font-size: 14px;
+        /* margin: 0%; */
+    }
+    .meet_dae_sector img:first-of-type {
+        display: none;
+    }
+    .meet_dae_sector img:last-of-type{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
